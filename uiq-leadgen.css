@@ -59,7 +59,7 @@ html {
 }
 
 body {
-	margin: 0 0 230px; /* bottom = footer height */
+	margin: 0 0 345px; /* bottom = footer height */
 }
 
 h1 {
@@ -242,7 +242,7 @@ font-weight:300;
 footer {
 	color: #999;
 	position: absolute;
-	background: rgba(26,29,37,1);
+	background: #222;
 	left: 0;
 	bottom: 0;
 	width: 100%;
@@ -263,20 +263,40 @@ footer p, footer a, footer a:hover {
 		text-decoration: none;
 	}
 
+.textwidget {
+	margin-bottom: 15px;
+}
+
 .textwidget strong {
 	color: #727272;
 	text-transform: uppercase;
+	font-weight: 600;
+	line-height: 30px;
 }
 
-.widget_text {
-	padding: 8px;
+#footer-widgets {
 	font-size: 14px;
+	font-weight: 400;
 }
+
+ul.menu li {
+	padding-bottom: 8px;
+	line-height: 20px;
+	margin-bottom: 10px;
+}
+
+	ul.menu li a {
+		color: #f3f3f3;
+	}
 
 @media (min-width: 320px) and (max-width: 480px) {
 
 	body {
-		margin: 0 0 500px; /* bottom = footer height */
+		margin: 0 0 1100px; /* bottom = footer height */
+	}
+
+	.widget_nav_menu, footer p {
+		margin-bottom: 50px;
 	}
 
 	.jumbotron {
