@@ -250,6 +250,29 @@ footer {
 	font-size: 12px;
 }
 
+footer p, footer a, footer a:hover {
+	color: #fff;
+}
+
+#link-bold a {
+	font-size: 14px;
+	font-weight: 600;
+}
+
+	#link-bold a:hover {
+		text-decoration: none;
+	}
+
+.textwidget strong {
+	color: #727272;
+	text-transform: uppercase;
+}
+
+.widget_text {
+	padding: 8px;
+	font-size: 14px;
+}
+
 @media (min-width: 320px) and (max-width: 480px) {
 
 	body {
